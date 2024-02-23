@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f483ef4-1f5a-4b12-b8f4-25244008b9d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/domain/enums/IssuePriority.kt" beforeDir="false" afterPath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/domain/enums/IssuePriority.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/domain/enums/IssueStatus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/domain/enums/IssueStatus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/domain/IssueRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/model/IssueModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/service/IssueService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -103,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708612754348</updated>
-      <workItem from="1708612755417" duration="4268000" />
+      <workItem from="1708612755417" duration="4910000" />
     </task>
     <servers />
   </component>
