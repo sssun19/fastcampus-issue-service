@@ -28,6 +28,6 @@ class GlobalExceptionHandler {
     fun handleException(ex: Exception) : ErrorResponse {
         logger.error { ex.message }
 
-        return ErrorResponse(code = 500, message = "Internal Server Error") // ex.message!! 로 받으면 해킹 당하기 쉽기 때문에 서버 응답으로 내리지 말고 로깅만 확인할 것
+        return ErrorResponse(code = 500, message = "Internal Server Error") // ex.message!! 로 받으면 세부 내용을 해킹 당하기 쉽기 때문에 에러 메세지는 서버 응답으로 내리지 말고 로깅만 확인할 것
     }
 }
