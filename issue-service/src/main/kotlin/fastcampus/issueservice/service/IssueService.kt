@@ -5,6 +5,8 @@ import fastcampus.issueservice.domain.IssueRepository
 import fastcampus.issueservice.domain.enums.IssueStatus
 import fastcampus.issueservice.model.IssueRequest
 import fastcampus.issueservice.model.IssueResponse
+import org.springframework.data.crossstore.ChangeSetPersister.NotFoundException
+import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 
@@ -31,4 +33,10 @@ class IssueService(
     fun getAll(status: IssueStatus) =
         issueRepository.findAllByStatusOrderByCreatedAtDesc(status)
             ?.map { IssueResponse(it) } // 반복문을 돌며 IssueResponse 타입으로 각각 받음
+
+    @Transactional(readOnly = true)
+    fun get(id: Long): IssueResponse {
+        val issue = issueRepository.findByIdOrNull(id) ?: throw fastcampus.issueservice.exception.NotFoundException("이슈가 존재하지 않습니다.")
+        return IssueResponse(issue)
+    }
 }
