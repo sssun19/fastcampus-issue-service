@@ -55,4 +55,10 @@ class IssueController(
     ) {
         issueService.delete(id)
     }
+
+//    @PostMapping("/{id}/comments")
+//    fun comments(
+//        authUser: AuthUser,
+//        @RequestBody request: IssueRequest,
+//    ) = issueService.comments()
 }
