@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f483ef4-1f5a-4b12-b8f4-25244008b9d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/service/IssueService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/service/IssueService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/web/IssueController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/web/IssueController.kt" afterDir="false" />
     </list>
@@ -67,10 +66,7 @@
       <recent name="fastcampus.issueservice.domain.enums" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #4">
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="HTTP Request.generated-requests | #3">
     <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -78,6 +74,9 @@
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="FastcampusIssueServicesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -102,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #4" />
-        <item itemvalue="Spring Boot.FastcampusIssueServicesApplication (1)" />
-        <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="HTTP Request.generated-requests | #3" />
-        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #5" />
+        <item itemvalue="Spring Boot.FastcampusIssueServicesApplication (1)" />
+        <item itemvalue="HTTP Request.generated-requests | #4" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708612754348</updated>
-      <workItem from="1708612755417" duration="9700000" />
+      <workItem from="1708612755417" duration="10057000" />
     </task>
     <servers />
   </component>
