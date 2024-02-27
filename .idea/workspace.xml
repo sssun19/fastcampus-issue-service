@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9f483ef4-1f5a-4b12-b8f4-25244008b9d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/service/IssueService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/service/IssueService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/web/IssueController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/issue-service/src/main/kotlin/fastcampus/issueservice/web/IssueController.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
       <recent name="fastcampus.issueservice.domain.enums" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #2">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #4">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -75,12 +77,8 @@
     <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="IssueTypeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fastcampus.issueservice.domain.enums.IssueTypeKt" />
-      <module name="fastcampus-issue-services.issue-service.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="FastcampusIssueServicesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="fastcampus-issue-services.issue-service.main" />
@@ -104,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #4" />
+        <item itemvalue="Spring Boot.FastcampusIssueServicesApplication (1)" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="HTTP Request.generated-requests | #3" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
-        <item itemvalue="Spring Boot.FastcampusIssueServicesApplication (1)" />
-        <item itemvalue="Kotlin.IssueTypeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708612754348</updated>
-      <workItem from="1708612755417" duration="8028000" />
+      <workItem from="1708612755417" duration="9700000" />
     </task>
     <servers />
   </component>
