@@ -31,4 +31,12 @@ class CommentService(
         issue.comments.add(comment)
         return commentRepository.save(comment).toResponse()
     }
+
+    @Transactional
+    fun edit(id: Long, userId: Long, request: CommentRequest) :CommentResponse? {
+        return commentRepository.findByIdAndUserId(id, userId)?.run {
+            body = request.body
+            commentRepository.save(this).toResponse()
+        } // 유저 아이디와 해당 코멘트 pk 가 동일한 경우에만 수정 가능하도록 query 문
+    }
 }
