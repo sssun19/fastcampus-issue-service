@@ -39,4 +39,12 @@ class CommentService(
             commentRepository.save(this).toResponse()
         } // 유저 아이디와 해당 코멘트 pk 가 동일한 경우에만 수정 가능하도록 query 문
     }
+
+    @Transactional
+    fun delete(issueId: Long, id: Long, userId: Long) {
+        val issue = issueRepository.findByIdOrNull(issueId) ?: throw NotFoundException("이슈가 존재하지 않습니다.")
+        commentRepository.findByIdAndUserId(id, userId)?.let { comment->
+            issue.comments.remove(comment)
+        }
+    }
 }
